@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HuaTRefresh_Example' do
+  pod 'HuaTRefresh', :path => '../'
+
+  target 'HuaTRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
