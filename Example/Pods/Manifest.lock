@@ -1,0 +1,16 @@
+PODS:
+  - HuaTRefresh (0.1.0)
+
+DEPENDENCIES:
+  - HuaTRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  HuaTRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuaTRefresh: bf3ef33fcdb9b13159c135297521c3e46bac1fa4
+
+PODFILE CHECKSUM: 420d98cd093fddf94fd8260b73cfc9a9f8084238
+
+COCOAPODS: 1.5.0

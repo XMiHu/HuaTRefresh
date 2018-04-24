@@ -1,0 +1,6 @@
+framework module HuaTRefresh {
+  umbrella header "HuaTRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

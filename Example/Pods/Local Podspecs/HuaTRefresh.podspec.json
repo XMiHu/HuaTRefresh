@@ -1,0 +1,23 @@
+{
+  "name": "HuaTRefresh",
+  "version": "0.1.0",
+  "summary": "刷新组件模块",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/XMiHu/HuaTRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "XMiHu": "1063163323@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/XMiHu/HuaTRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HuaTRefresh/Classes/**/*",
+  "public_header_files": "HuaTRefresh/Classes/**/*.h"
+}

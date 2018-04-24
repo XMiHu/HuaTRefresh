@@ -1,0 +1,6 @@
+framework module Pods_HuaTRefresh_Example {
+  umbrella header "Pods-HuaTRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
