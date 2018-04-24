@@ -135,8 +135,8 @@
                 [_activityView stopAnimating];
                 
                 [UIView animateWithDuration:0.2 animations:^{
-                    arrowImageView.transform = CGAffineTransformMakeRotation(0.000001 - M_PI);
-                    _scrollView.contentInset = _scrollViewOriginalEdgeInsets;
+                    self->arrowImageView.transform = CGAffineTransformMakeRotation(0.000001 - M_PI);
+                    self->_scrollView.contentInset = self->_scrollViewOriginalEdgeInsets;
                 }];                
             }
                 break;
@@ -144,7 +144,7 @@
             {
                 _statusLabel.text = self.pullingStateText;
                 [UIView animateWithDuration:0.2 animations:^{
-                    arrowImageView.transform = CGAffineTransformIdentity;
+                    self->arrowImageView.transform = CGAffineTransformIdentity;
                 }];
             }
                 break;
@@ -155,11 +155,11 @@
                 arrowImageView.hidden = YES;
                 arrowImageView.transform = CGAffineTransformMakeRotation(0.000001 - M_PI);
                 [UIView animateWithDuration:0.2 animations:^{
-                    UIEdgeInsets inset = _scrollView.contentInset;
+                    UIEdgeInsets inset = self->_scrollView.contentInset;
                     inset.bottom += FCXHandingOffsetHeight;
-                    _scrollView.contentInset = inset;
-                    inset.bottom = self.frame.origin.y - _scrollView.contentSize.height + FCXHandingOffsetHeight;
-                    _scrollView.contentInset = inset;
+                    self->_scrollView.contentInset = inset;
+                    inset.bottom = self.frame.origin.y - self->_scrollView.contentSize.height + FCXHandingOffsetHeight;
+                    self->_scrollView.contentInset = inset;
                 }];
                 
                 if (self.refreshHandler) {

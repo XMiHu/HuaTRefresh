@@ -102,8 +102,8 @@
                 [_activityView stopAnimating];
                 
                 [UIView animateWithDuration:0.2 animations:^{
-                    arrowImageView.transform = CGAffineTransformIdentity;
-                    _scrollView.contentInset = _scrollViewOriginalEdgeInsets;
+                    self->arrowImageView.transform = CGAffineTransformIdentity;
+                    self->_scrollView.contentInset = self->_scrollViewOriginalEdgeInsets;
                 }];
             }
                 break;
@@ -111,7 +111,7 @@
             {
                 _statusLabel.text = self.pullingStateText;
                 [UIView animateWithDuration:0.2 animations:^{
-                    arrowImageView.transform = CGAffineTransformMakeRotation(0.000001 - M_PI);
+                    self->arrowImageView.transform = CGAffineTransformMakeRotation(0.000001 - M_PI);
                 }];
             }
                 break;
@@ -123,9 +123,9 @@
                 arrowImageView.transform = CGAffineTransformIdentity;
 
                 [UIView animateWithDuration:0.2 animations:^{
-                    UIEdgeInsets edgeInset = _scrollViewOriginalEdgeInsets;
+                    UIEdgeInsets edgeInset = self->_scrollViewOriginalEdgeInsets;
                     edgeInset.top += FCXHandingOffsetHeight;
-                    _scrollView.contentInset = edgeInset;
+                    self->_scrollView.contentInset = edgeInset;
                 }];
 
                 if (self.refreshHandler) {
@@ -144,7 +144,7 @@
 - (void)autoRefresh {
     self.refreshState = FCXRefreshStateLoading;
     [UIView animateWithDuration:.2 animations:^{
-        _scrollView.contentOffset = CGPointMake(0, -FCXHandingOffsetHeight - _scrollViewOriginalEdgeInsets.top);
+        self->      _scrollView.contentOffset = CGPointMake(0, -FCXHandingOffsetHeight - self->_scrollViewOriginalEdgeInsets.top);
     } completion:^(BOOL finished) {
         self.refreshState = FCXRefreshStateLoading;
     }];
