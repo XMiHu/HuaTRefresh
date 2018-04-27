@@ -7,6 +7,7 @@
 //
 
 #import "FCXRefreshHeaderView.h"
+#import "UIImage+MHHome.h"
 
 @implementation FCXRefreshHeaderView
 
@@ -39,7 +40,9 @@
     [self addSubview:_timeLabel];
     
     //箭头图片
-    arrowImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blueArrow"]];
+    UIImage * pic = [UIImage ff_imagePathWithName:@"blueArrow" bundle:@"HuaTRefresh" targetClass:[self class]];
+    arrowImageView = [[UIImageView alloc] initWithImage:pic];
+    
     arrowImageView.frame = CGRectMake(width/2.0 - 100, (FCXHandingOffsetHeight - 40)/2.0 + 5, 15, 40);
     [self addSubview:arrowImageView];
     
@@ -161,4 +164,11 @@
     _timeLabel.text = [dateFormatter stringFromDate:[NSDate date]];
 }
 
+
 @end
+
+
+
+
+
+

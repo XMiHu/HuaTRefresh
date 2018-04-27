@@ -64,6 +64,8 @@
 		8592DADEEB87AD6412A8ABED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89A8E975B8C4FDF41519AB58 /* HuaTRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HuaTRefresh.podspec; path = ../HuaTRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A022108A208EDC6C0076786C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0221096208EF3950076786C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50A829CC8B6E47259868B37 /* Pods-HuaTRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTRefresh_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTRefresh_Tests/Pods-HuaTRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D36C760180C8099481A4FE18 /* Pods-HuaTRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTRefresh_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTRefresh_Example/Pods-HuaTRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6497E2E16EB2488135458D7 /* Pods_HuaTRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,8 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HuaTRefresh */,
 				6003F5B5195388D20070C39A /* Tests */,
+				A0221089208EDC6C0076786C /* ReSource */,
+				A0221095208EF3950076786C /* source */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5A4C2E563BB5DCF40BAAD4B0 /* Pods */,
@@ -194,6 +198,22 @@
 				8592DADEEB87AD6412A8ABED /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A0221089208EDC6C0076786C /* ReSource */ = {
+			isa = PBXGroup;
+			children = (
+				A022108A208EDC6C0076786C /* Info.plist */,
+			);
+			path = ReSource;
+			sourceTree = "<group>";
+		};
+		A0221095208EF3950076786C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A0221096208EF3950076786C /* Info.plist */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

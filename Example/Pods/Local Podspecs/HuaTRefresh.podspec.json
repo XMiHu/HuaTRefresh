@@ -1,6 +1,6 @@
 {
   "name": "HuaTRefresh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "刷新组件模块",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/XMiHu/HuaTRefresh",
@@ -13,11 +13,16 @@
   },
   "source": {
     "git": "https://github.com/XMiHu/HuaTRefresh.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "HuaTRefresh/Classes/**/*",
+  "resource_bundles": {
+    "HuaTRefresh": [
+      "HuaTRefresh/Assets/*.png"
+    ]
+  },
   "public_header_files": "HuaTRefresh/Classes/**/*.h"
 }

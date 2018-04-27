@@ -7,23 +7,49 @@
 //
 
 #import "MHViewController.h"
+#import "UIScrollView+FCXRefresh.h"
+#import "FCXRefreshHeaderView.h"
+#import "FCXRefreshFooterView.h"
 
 @interface MHViewController ()
+
+@property(nonatomic,strong)UITableView * tableView;
 
 @end
 
 @implementation MHViewController
 
+{
+    FCXRefreshHeaderView * head;
+    FCXRefreshFooterView * footer;
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:(UITableViewStyleGrouped)];
+    [self.view addSubview:self.tableView];
+    
+    head = [self.tableView addHeaderWithRefreshHandler:^(FCXRefreshBaseView *refreshView) {
+        NSLog(@"dsadsd");
+    }];
+    
+    footer = [self.tableView addFooterWithRefreshHandler:^(FCXRefreshBaseView *refreshView) {
+        NSLog(@"dsadsdd");
+        
+    }];
 }
 
 @end
+
+
+
+
+
+
+
+
+
+

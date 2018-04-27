@@ -7,24 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B6E21D0ED582B13A57CA554624D610 /* HuaTRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D424536FC8DA569085A68B55A3913B /* HuaTRefresh-dummy.m */; };
+		01D75C74596E36ED61EDC8FB0596241C /* HuaTRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAFF6798662D9EBE170AD857FF89CCA /* HuaTRefresh-dummy.m */; };
+		0924582B667012D9694788E6BAE327AF /* FCXRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCF16988A90097F9208BC615BD28D1 /* FCXRefreshFooterView.m */; };
+		0F28FCA89E4F482400434071B21FFFD9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF4ABFA7E831444364E4574E488C5D /* ReplaceMe.m */; };
 		22286CFA2AE6F03488613AE3F93E5426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3D0B2A1EA1E0875EF244CD1004BA0620 /* FCXRefreshHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE11EF5988AF839951C00FE5C89AC12 /* FCXRefreshHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B47E45463D45A7D48E0F3626695FDE /* blueArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FE3E2176655FF5C44D5D75EE712DC /* blueArrow@3x.png */; };
+		351945419988152FCA5794151F3EB312 /* FCXRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D3B52E16FFEC2476B2EA24B8DC75D3 /* FCXRefreshHeaderView.m */; };
+		364053377539C7D0AA8DD7BB329DCCFD /* FCXRefreshFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BAD9E7B1876E7AC3E1896CBA60B3AB /* FCXRefreshFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB6ED8951B58A2C80AEC2FF2F3C2CE8 /* Pods-HuaTRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69BB4A97F6D359C9B767E2B8AC0C336 /* Pods-HuaTRefresh_Tests-dummy.m */; };
-		544FB21B3883464E95933A888A9D3B99 /* FCXRefreshFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 362160C4B8CF20FA05A98BEFCDA00E3E /* FCXRefreshFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72951E39E3174CA64AE4F0993A235AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5DBC808B58AFE8141CC23451ED1C440A /* HuaTRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3185DB460EA325B7AD329B501E5CF21 /* HuaTRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4EC0C3DE6FD9A18A025E226B066FC2 /* UIScrollView+FCXRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = E66695EAD7DFDF330C23BBCC2F3517C7 /* UIScrollView+FCXRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7598F3B0D80A554492A412B91EBD5620 /* Pods-HuaTRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE97C1F75F58D62F58B94FD0174A2AEE /* Pods-HuaTRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7683AA34955B0543AA109FF02D6763A1 /* HuaTRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 839456CDEFE7A4C9918C0C6063DEE504 /* HuaTRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79CEF6D84A6BC37A1546AF5A7E242F43 /* UIScrollView+FCXRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C446A1E690E212FECB3C48AE19359FF /* UIScrollView+FCXRefresh.m */; };
-		7C1DCBCA3F772E736DD57FB5C0504A20 /* FCXRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C554A9CC413CFC452273191AC8566495 /* FCXRefreshHeaderView.m */; };
 		8D03C4174DFE1D07F78A1D55B2E1974A /* Pods-HuaTRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEFC2B1871EF0CE6A5B165A6DBAB47F /* Pods-HuaTRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B9945B559611651F75E55933D95C19 /* HuaTRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1B712680D82F0B48A0D939E6E343CCC /* HuaTRefresh.bundle */; };
+		A0A56719209303BB0010398F /* UIImage+MHHome.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A56717209303BB0010398F /* UIImage+MHHome.h */; };
+		A0A5671A209303BB0010398F /* UIImage+MHHome.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A56718209303BB0010398F /* UIImage+MHHome.m */; };
 		A20BA21584A051E93827A6B9CFE5D9FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AC332CE4BFCBAF9EBC982215EA97377C /* FCXRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772371D4D2117C44DFB82C49CD7ED1 /* FCXRefreshBaseView.m */; };
 		B632CCDF6017BD90E846CCDF8EF9BFCF /* Pods-HuaTRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B948C0AFD53A098268FDB172441420 /* Pods-HuaTRefresh_Example-dummy.m */; };
-		BC910D4714FF910A111EA01D5E85693E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B067F74F64C6CC6BE3B3E36F12E68244 /* ReplaceMe.m */; };
-		BF4C10CC0975F20BAD36805C08E7F958 /* FCXRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A48A4CB6E3EDD79DCCC45FE5BBFE200E /* FCXRefreshFooterView.m */; };
-		DF5FC068E6A36002654C653D3E43CA16 /* FCXRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5C5F1E88B5C079B63CB0A5CEAA33F /* FCXRefreshBaseView.m */; };
-		FEBC49987E1362DD70B4A9E8E8B68227 /* UIScrollView+FCXRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4174183C67806D98E1EA50843C90B90D /* UIScrollView+FCXRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEEAFBD365D1C334636AE93456DA570C /* FCXRefreshBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE5D316ABC6B31304629D5F306E2C3C /* FCXRefreshBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8EC657F6340A6DD4E843DB2A01E8FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C04331284A28F4AD6B0D3B342833B70B /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3456C5ED1AE790349317C81CBF34953A /* blueArrow@2x.png */; };
+		CABEF74F504E8D979EE57C66709BFEC8 /* FCXRefreshHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = D190ACCDC448348FF41FEE726D7C5CE1 /* FCXRefreshHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D39C06AB80D89914085E464BE67DA8C2 /* UIScrollView+FCXRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C53254EF97D4475CDE9B14D85D77ADFE /* UIScrollView+FCXRefresh.m */; };
+		FF4C502346BEB4731AC598D63247CBF5 /* FCXRefreshBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7B0E538417ACC4EB4C33E9843139E4 /* FCXRefreshBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +37,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3741AA5C50A60C88205E6F805D83794C;
+			remoteGlobalIDString = 7A0F5B6AE258CB4B3B544E4F8753967A;
 			remoteInfo = HuaTRefresh;
+		};
+		1CDABE76FCA5C737A797F3C99B855208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A827603755DC5DB8D8C871A4400A3A6;
+			remoteInfo = "HuaTRefresh-HuaTRefresh";
 		};
 		FBFA70FE6AEC17DE59B947A5713F76D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,52 +57,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C446A1E690E212FECB3C48AE19359FF /* UIScrollView+FCXRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FCXRefresh.m"; sourceTree = "<group>"; };
+		1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaTRefresh.xcconfig; sourceTree = "<group>"; };
 		14F9CA6B32A23244F819BBA8D6310459 /* Pods-HuaTRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTRefresh_Example.modulemap"; sourceTree = "<group>"; };
 		152ADB8F24A332BBDCD321612FA8F7F5 /* Pods-HuaTRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		192D3AE2DDFA61CCBA9DEE466E91CC0F /* Pods-HuaTRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F68CB1D868C1AC14685B17325D0AF48 /* HuaTRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaTRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCCF16988A90097F9208BC615BD28D1 /* FCXRefreshFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshFooterView.m; sourceTree = "<group>"; };
 		242FEB8BF1A0DCF2CB82B5785B29E48E /* Pods-HuaTRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		28D3B52E16FFEC2476B2EA24B8DC75D3 /* FCXRefreshHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshHeaderView.m; sourceTree = "<group>"; };
 		2AE5238725FDA3A44DA19ACBA7D44A64 /* Pods-HuaTRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AE5D316ABC6B31304629D5F306E2C3C /* FCXRefreshBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshBaseView.h; sourceTree = "<group>"; };
-		362160C4B8CF20FA05A98BEFCDA00E3E /* FCXRefreshFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshFooterView.h; sourceTree = "<group>"; };
-		39787ACFDE7F8E6AD231D45BAD737EFD /* HuaTRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuaTRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B31F751166FB1E565024BDAFF545894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3317DB4E39D1A16934D94AC2B5647FD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3456C5ED1AE790349317C81CBF34953A /* blueArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "HuaTRefresh/Assets/blueArrow@2x.png"; sourceTree = "<group>"; };
 		3BCF5641DA06ABC523A2C7F62D02D6F5 /* Pods-HuaTRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3E95BA29AEEBAE10A51FE2122DA4922F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4174183C67806D98E1EA50843C90B90D /* UIScrollView+FCXRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FCXRefresh.h"; sourceTree = "<group>"; };
+		498CAD621879F05273506432287EEFAD /* HuaTRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HuaTRefresh.modulemap; sourceTree = "<group>"; };
 		4CD9A813DF572FB5A754D3B201300EED /* Pods-HuaTRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F7B0E538417ACC4EB4C33E9843139E4 /* FCXRefreshBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshBaseView.h; sourceTree = "<group>"; };
 		6083CBF2BAAB0B99F478913CA0039BB8 /* Pods-HuaTRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
 		634B1760BA87E214FF789606A72B2975 /* Pods-HuaTRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		657F5394D9CFECD7BFC363387B10D174 /* HuaTRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaTRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66237BD4E93A3C9CA9D65C4C9DF42490 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0FE3E2176655FF5C44D5D75EE712DC /* blueArrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "blueArrow@3x.png"; path = "HuaTRefresh/Assets/blueArrow@3x.png"; sourceTree = "<group>"; };
+		72772371D4D2117C44DFB82C49CD7ED1 /* FCXRefreshBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshBaseView.m; sourceTree = "<group>"; };
 		7BEFC2B1871EF0CE6A5B165A6DBAB47F /* Pods-HuaTRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
 		7D81293BBBBC08004F1B6451F79DDC21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8305E21EA211BF8BE70BF40A43313A47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831D729A2CD82451690C796F50A756D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		839456CDEFE7A4C9918C0C6063DEE504 /* HuaTRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTRefresh-umbrella.h"; sourceTree = "<group>"; };
 		87BBE3227263858DD1A8D73337F1DA85 /* Pods-HuaTRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C267F4A4B321DF03130902B18FAEEBF /* Pods-HuaTRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTRefresh_Example-resources.sh"; sourceTree = "<group>"; };
-		8FE11EF5988AF839951C00FE5C89AC12 /* FCXRefreshHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshHeaderView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D424536FC8DA569085A68B55A3913B /* HuaTRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaTRefresh-dummy.m"; sourceTree = "<group>"; };
+		9914669FE23F016B0B52E50D73F1D586 /* HuaTRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTRefresh-prefix.pch"; sourceTree = "<group>"; };
+		9AEF4ABFA7E831444364E4574E488C5D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HuaTRefresh/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9AF2739B63E202F6985B92103061E61C /* Pods-HuaTRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		A48A4CB6E3EDD79DCCC45FE5BBFE200E /* FCXRefreshFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshFooterView.m; sourceTree = "<group>"; };
+		9DE2044354ED4F4BC0E2752EAF42E42F /* ResourceBundle-HuaTRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HuaTRefresh-Info.plist"; sourceTree = "<group>"; };
+		A0A56717209303BB0010398F /* UIImage+MHHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MHHome.h"; sourceTree = "<group>"; };
+		A0A56718209303BB0010398F /* UIImage+MHHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MHHome.m"; sourceTree = "<group>"; };
+		A6707F4DACA7B79F378B82A530587290 /* Pods_HuaTRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE97C1F75F58D62F58B94FD0174A2AEE /* Pods-HuaTRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B04AE888BEE7D82BBDC202AC537453D3 /* Pods_HuaTRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B067F74F64C6CC6BE3B3E36F12E68244 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HuaTRefresh/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B3185DB460EA325B7AD329B501E5CF21 /* HuaTRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTRefresh-umbrella.h"; sourceTree = "<group>"; };
+		B6BAD9E7B1876E7AC3E1896CBA60B3AB /* FCXRefreshFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshFooterView.h; sourceTree = "<group>"; };
 		C2B948C0AFD53A098268FDB172441420 /* Pods-HuaTRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTRefresh_Example-dummy.m"; sourceTree = "<group>"; };
-		C554A9CC413CFC452273191AC8566495 /* FCXRefreshHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshHeaderView.m; sourceTree = "<group>"; };
+		C53254EF97D4475CDE9B14D85D77ADFE /* UIScrollView+FCXRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FCXRefresh.m"; sourceTree = "<group>"; };
 		C5EB54700E31F085F0C2AF1764C94493 /* Pods-HuaTRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
 		C69BB4A97F6D359C9B767E2B8AC0C336 /* Pods-HuaTRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		D1C5C5F1E88B5C079B63CB0A5CEAA33F /* FCXRefreshBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshBaseView.m; sourceTree = "<group>"; };
-		D2B0919BD89DD6A166D8305019DC97CB /* HuaTRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaTRefresh.xcconfig; sourceTree = "<group>"; };
-		D491EF307C4F8AA0BB256A8C7252E83E /* HuaTRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HuaTRefresh.modulemap; sourceTree = "<group>"; };
+		CB765DDF34401BF9326EC413F7F15299 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D190ACCDC448348FF41FEE726D7C5CE1 /* FCXRefreshHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCXRefreshHeaderView.h; sourceTree = "<group>"; };
+		D6809B65ED2FDCEEA3DA26FD29286437 /* Pods_HuaTRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAFF6798662D9EBE170AD857FF89CCA /* HuaTRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaTRefresh-dummy.m"; sourceTree = "<group>"; };
 		E0B2C6C540275290D547CF30DFAF687F /* Pods-HuaTRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F60CEE0D514A2B07133B9A4603811A40 /* HuaTRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTRefresh-prefix.pch"; sourceTree = "<group>"; };
-		F9210F96A6B123098B18B32409D206AC /* Pods_HuaTRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E198AD0D6B4F4F93A5C34FA747D5D11F /* HuaTRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuaTRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E66695EAD7DFDF330C23BBCC2F3517C7 /* UIScrollView+FCXRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FCXRefresh.h"; sourceTree = "<group>"; };
+		F1B712680D82F0B48A0D939E6E343CCC /* HuaTRefresh.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaTRefresh.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		085D1557FD0F017A43DA8F414694E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DE709FE83221345A82CF178684599EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,11 +124,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		439B1A5FCC4FB8F4AE4990C9C10F472C /* Frameworks */ = {
+		287A68ED6DB780F4475215C10F7ECA9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72951E39E3174CA64AE4F0993A235AE9 /* Foundation.framework in Frameworks */,
+				B8EC657F6340A6DD4E843DB2A01E8FE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,18 +143,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57968F3F59BDC6D61F013666997AF4A4 /* Support Files */ = {
+		2186A71A3D4267BFB02A5EBB8C421E4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D491EF307C4F8AA0BB256A8C7252E83E /* HuaTRefresh.modulemap */,
-				D2B0919BD89DD6A166D8305019DC97CB /* HuaTRefresh.xcconfig */,
-				95D424536FC8DA569085A68B55A3913B /* HuaTRefresh-dummy.m */,
-				F60CEE0D514A2B07133B9A4603811A40 /* HuaTRefresh-prefix.pch */,
-				839456CDEFE7A4C9918C0C6063DEE504 /* HuaTRefresh-umbrella.h */,
-				8305E21EA211BF8BE70BF40A43313A47 /* Info.plist */,
+				F1B712680D82F0B48A0D939E6E343CCC /* HuaTRefresh.bundle */,
+				1F68CB1D868C1AC14685B17325D0AF48 /* HuaTRefresh.framework */,
+				D6809B65ED2FDCEEA3DA26FD29286437 /* Pods_HuaTRefresh_Example.framework */,
+				A6707F4DACA7B79F378B82A530587290 /* Pods_HuaTRefresh_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HuaTRefresh";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB9944460471D381017F95F811E4F53 /* HuaTRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9AEF4ABFA7E831444364E4574E488C5D /* ReplaceMe.m */,
+				B9FB50BEAE73CB340922C22F0FD84ABA /* HuaTRefresh */,
+				D43A5507129B4FBCE8AE83513A19E377 /* Pod */,
+				62E4E4D17F4E2E4F3B364ECE93C81D88 /* Resources */,
+				DD82E13A605D508F8C6423E50FA5F4EC /* Support Files */,
+			);
+			name = HuaTRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		62E4E4D17F4E2E4F3B364ECE93C81D88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3456C5ED1AE790349317C81CBF34953A /* blueArrow@2x.png */,
+				6E0FE3E2176655FF5C44D5D75EE712DC /* blueArrow@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		655FB351217BE7FB79AFE2204A86E815 /* Pods-HuaTRefresh_Tests */ = {
@@ -150,33 +194,21 @@
 			path = "Target Support Files/Pods-HuaTRefresh_Tests";
 			sourceTree = "<group>";
 		};
-		68428574D55AFBF4428F0ACE6AFA9664 /* HuaTRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				B067F74F64C6CC6BE3B3E36F12E68244 /* ReplaceMe.m */,
-				D15E06425F8B825F48331BE5C68D7E44 /* HuaTRefresh */,
-				DCC941F85C9E322D643E645F980D981C /* Pod */,
-				57968F3F59BDC6D61F013666997AF4A4 /* Support Files */,
-			);
-			name = HuaTRefresh;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8CDF732353ABA74C35179499573A55EA /* Development Pods */,
+				90E8378C0E56F0DC7736332DDD3FFA76 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A42F749E1DF481960D936A3237C65AC6 /* Products */,
+				2186A71A3D4267BFB02A5EBB8C421E4C /* Products */,
 				93778919C34DAE553EA7864F9FB7D3DE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CDF732353ABA74C35179499573A55EA /* Development Pods */ = {
+		90E8378C0E56F0DC7736332DDD3FFA76 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				68428574D55AFBF4428F0ACE6AFA9664 /* HuaTRefresh */,
+				5FB9944460471D381017F95F811E4F53 /* HuaTRefresh */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -208,14 +240,22 @@
 			path = "Target Support Files/Pods-HuaTRefresh_Example";
 			sourceTree = "<group>";
 		};
-		A42F749E1DF481960D936A3237C65AC6 /* Products */ = {
+		B9FB50BEAE73CB340922C22F0FD84ABA /* HuaTRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				657F5394D9CFECD7BFC363387B10D174 /* HuaTRefresh.framework */,
-				B04AE888BEE7D82BBDC202AC537453D3 /* Pods_HuaTRefresh_Example.framework */,
-				F9210F96A6B123098B18B32409D206AC /* Pods_HuaTRefresh_Tests.framework */,
+				5F7B0E538417ACC4EB4C33E9843139E4 /* FCXRefreshBaseView.h */,
+				72772371D4D2117C44DFB82C49CD7ED1 /* FCXRefreshBaseView.m */,
+				B6BAD9E7B1876E7AC3E1896CBA60B3AB /* FCXRefreshFooterView.h */,
+				1FCCF16988A90097F9208BC615BD28D1 /* FCXRefreshFooterView.m */,
+				D190ACCDC448348FF41FEE726D7C5CE1 /* FCXRefreshHeaderView.h */,
+				28D3B52E16FFEC2476B2EA24B8DC75D3 /* FCXRefreshHeaderView.m */,
+				E66695EAD7DFDF330C23BBCC2F3517C7 /* UIScrollView+FCXRefresh.h */,
+				C53254EF97D4475CDE9B14D85D77ADFE /* UIScrollView+FCXRefresh.m */,
+				A0A56717209303BB0010398F /* UIImage+MHHome.h */,
+				A0A56718209303BB0010398F /* UIImage+MHHome.m */,
 			);
-			name = Products;
+			name = HuaTRefresh;
+			path = HuaTRefresh/Classes/HuaTRefresh;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -226,22 +266,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D15E06425F8B825F48331BE5C68D7E44 /* HuaTRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				2AE5D316ABC6B31304629D5F306E2C3C /* FCXRefreshBaseView.h */,
-				D1C5C5F1E88B5C079B63CB0A5CEAA33F /* FCXRefreshBaseView.m */,
-				362160C4B8CF20FA05A98BEFCDA00E3E /* FCXRefreshFooterView.h */,
-				A48A4CB6E3EDD79DCCC45FE5BBFE200E /* FCXRefreshFooterView.m */,
-				8FE11EF5988AF839951C00FE5C89AC12 /* FCXRefreshHeaderView.h */,
-				C554A9CC413CFC452273191AC8566495 /* FCXRefreshHeaderView.m */,
-				4174183C67806D98E1EA50843C90B90D /* UIScrollView+FCXRefresh.h */,
-				0C446A1E690E212FECB3C48AE19359FF /* UIScrollView+FCXRefresh.m */,
-			);
-			name = HuaTRefresh;
-			path = HuaTRefresh/Classes/HuaTRefresh;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,36 +274,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DCC941F85C9E322D643E645F980D981C /* Pod */ = {
+		D43A5507129B4FBCE8AE83513A19E377 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				39787ACFDE7F8E6AD231D45BAD737EFD /* HuaTRefresh.podspec */,
-				3E95BA29AEEBAE10A51FE2122DA4922F /* LICENSE */,
-				831D729A2CD82451690C796F50A756D9 /* README.md */,
+				E198AD0D6B4F4F93A5C34FA747D5D11F /* HuaTRefresh.podspec */,
+				3317DB4E39D1A16934D94AC2B5647FD7 /* LICENSE */,
+				CB765DDF34401BF9326EC413F7F15299 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		DD82E13A605D508F8C6423E50FA5F4EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				498CAD621879F05273506432287EEFAD /* HuaTRefresh.modulemap */,
+				1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */,
+				DEAFF6798662D9EBE170AD857FF89CCA /* HuaTRefresh-dummy.m */,
+				9914669FE23F016B0B52E50D73F1D586 /* HuaTRefresh-prefix.pch */,
+				B3185DB460EA325B7AD329B501E5CF21 /* HuaTRefresh-umbrella.h */,
+				2B31F751166FB1E565024BDAFF545894 /* Info.plist */,
+				9DE2044354ED4F4BC0E2752EAF42E42F /* ResourceBundle-HuaTRefresh-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HuaTRefresh";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1A6B040567EB18968B1D8E29238F8056 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A56719209303BB0010398F /* UIImage+MHHome.h in Headers */,
+				FF4C502346BEB4731AC598D63247CBF5 /* FCXRefreshBaseView.h in Headers */,
+				364053377539C7D0AA8DD7BB329DCCFD /* FCXRefreshFooterView.h in Headers */,
+				CABEF74F504E8D979EE57C66709BFEC8 /* FCXRefreshHeaderView.h in Headers */,
+				5DBC808B58AFE8141CC23451ED1C440A /* HuaTRefresh-umbrella.h in Headers */,
+				6F4EC0C3DE6FD9A18A025E226B066FC2 /* UIScrollView+FCXRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B7D5BE0A123B1EEC80B220E6AC23A74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D03C4174DFE1D07F78A1D55B2E1974A /* Pods-HuaTRefresh_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBE049FBC5D4ADB70910F80CF7FB9CAB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEEAFBD365D1C334636AE93456DA570C /* FCXRefreshBaseView.h in Headers */,
-				544FB21B3883464E95933A888A9D3B99 /* FCXRefreshFooterView.h in Headers */,
-				3D0B2A1EA1E0875EF244CD1004BA0620 /* FCXRefreshHeaderView.h in Headers */,
-				7683AA34955B0543AA109FF02D6763A1 /* HuaTRefresh-umbrella.h in Headers */,
-				FEBC49987E1362DD70B4A9E8E8B68227 /* UIScrollView+FCXRefresh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,22 +334,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3741AA5C50A60C88205E6F805D83794C /* HuaTRefresh */ = {
+		7A0F5B6AE258CB4B3B544E4F8753967A /* HuaTRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A293C3E180C8E061CC31BAA7B6BA7276 /* Build configuration list for PBXNativeTarget "HuaTRefresh" */;
+			buildConfigurationList = DFBC97E8DB2B36AD8880015F3ADA4463 /* Build configuration list for PBXNativeTarget "HuaTRefresh" */;
 			buildPhases = (
-				B99DAB94A2561E5E2B99D7B6BA0F9DFC /* Sources */,
-				439B1A5FCC4FB8F4AE4990C9C10F472C /* Frameworks */,
-				BBE049FBC5D4ADB70910F80CF7FB9CAB /* Headers */,
+				24706F4EBC0BC14B2C2D6B0B84734A93 /* Sources */,
+				287A68ED6DB780F4475215C10F7ECA9C /* Frameworks */,
+				D4BD6D617107D3E9DF500542DC70DB28 /* Resources */,
+				1A6B040567EB18968B1D8E29238F8056 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A060CB23CEED75F2E613C7C6722A55CF /* PBXTargetDependency */,
+			);
+			name = HuaTRefresh;
+			productName = HuaTRefresh;
+			productReference = 1F68CB1D868C1AC14685B17325D0AF48 /* HuaTRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A827603755DC5DB8D8C871A4400A3A6 /* HuaTRefresh-HuaTRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4A5DC3B4B9463C78C35E62F3DBA12A /* Build configuration list for PBXNativeTarget "HuaTRefresh-HuaTRefresh" */;
+			buildPhases = (
+				AA331EEA3242585A2E6D129D775FBFBF /* Sources */,
+				085D1557FD0F017A43DA8F414694E698 /* Frameworks */,
+				8C0DC8D8809B73E6633FFDF550FC2505 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HuaTRefresh;
-			productName = HuaTRefresh;
-			productReference = 657F5394D9CFECD7BFC363387B10D174 /* HuaTRefresh.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "HuaTRefresh-HuaTRefresh";
+			productName = "HuaTRefresh-HuaTRefresh";
+			productReference = F1B712680D82F0B48A0D939E6E343CCC /* HuaTRefresh.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C21824F4EB71488656ECE3A737E7F4A3 /* Pods-HuaTRefresh_Example */ = {
 			isa = PBXNativeTarget;
@@ -326,7 +385,7 @@
 			);
 			name = "Pods-HuaTRefresh_Example";
 			productName = "Pods-HuaTRefresh_Example";
-			productReference = B04AE888BEE7D82BBDC202AC537453D3 /* Pods_HuaTRefresh_Example.framework */;
+			productReference = D6809B65ED2FDCEEA3DA26FD29286437 /* Pods_HuaTRefresh_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9395C4F5329BE7FA784D1C7C49E82A4 /* Pods-HuaTRefresh_Tests */ = {
@@ -344,7 +403,7 @@
 			);
 			name = "Pods-HuaTRefresh_Tests";
 			productName = "Pods-HuaTRefresh_Tests";
-			productReference = F9210F96A6B123098B18B32409D206AC /* Pods_HuaTRefresh_Tests.framework */;
+			productReference = A6707F4DACA7B79F378B82A530587290 /* Pods_HuaTRefresh_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -364,18 +423,53 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A42F749E1DF481960D936A3237C65AC6 /* Products */;
+			productRefGroup = 2186A71A3D4267BFB02A5EBB8C421E4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3741AA5C50A60C88205E6F805D83794C /* HuaTRefresh */,
+				7A0F5B6AE258CB4B3B544E4F8753967A /* HuaTRefresh */,
+				8A827603755DC5DB8D8C871A4400A3A6 /* HuaTRefresh-HuaTRefresh */,
 				C21824F4EB71488656ECE3A737E7F4A3 /* Pods-HuaTRefresh_Example */,
 				C9395C4F5329BE7FA784D1C7C49E82A4 /* Pods-HuaTRefresh_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8C0DC8D8809B73E6633FFDF550FC2505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04331284A28F4AD6B0D3B342833B70B /* blueArrow@2x.png in Resources */,
+				33B47E45463D45A7D48E0F3626695FDE /* blueArrow@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BD6D617107D3E9DF500542DC70DB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B9945B559611651F75E55933D95C19 /* HuaTRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		24706F4EBC0BC14B2C2D6B0B84734A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC332CE4BFCBAF9EBC982215EA97377C /* FCXRefreshBaseView.m in Sources */,
+				0924582B667012D9694788E6BAE327AF /* FCXRefreshFooterView.m in Sources */,
+				351945419988152FCA5794151F3EB312 /* FCXRefreshHeaderView.m in Sources */,
+				01D75C74596E36ED61EDC8FB0596241C /* HuaTRefresh-dummy.m in Sources */,
+				0F28FCA89E4F482400434071B21FFFD9 /* ReplaceMe.m in Sources */,
+				A0A5671A209303BB0010398F /* UIImage+MHHome.m in Sources */,
+				D39C06AB80D89914085E464BE67DA8C2 /* UIScrollView+FCXRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69E5360B4EDF2F8AC5248CD0675922F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,16 +486,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B99DAB94A2561E5E2B99D7B6BA0F9DFC /* Sources */ = {
+		AA331EEA3242585A2E6D129D775FBFBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5FC068E6A36002654C653D3E43CA16 /* FCXRefreshBaseView.m in Sources */,
-				BF4C10CC0975F20BAD36805C08E7F958 /* FCXRefreshFooterView.m in Sources */,
-				7C1DCBCA3F772E736DD57FB5C0504A20 /* FCXRefreshHeaderView.m in Sources */,
-				09B6E21D0ED582B13A57CA554624D610 /* HuaTRefresh-dummy.m in Sources */,
-				BC910D4714FF910A111EA01D5E85693E /* ReplaceMe.m in Sources */,
-				79CEF6D84A6BC37A1546AF5A7E242F43 /* UIScrollView+FCXRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +499,14 @@
 		05E755ACDF90840CD625EEE547DAA9C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HuaTRefresh;
-			target = 3741AA5C50A60C88205E6F805D83794C /* HuaTRefresh */;
+			target = 7A0F5B6AE258CB4B3B544E4F8753967A /* HuaTRefresh */;
 			targetProxy = 1BCE18B80935671F6F46A0A95BFC5902 /* PBXContainerItemProxy */;
+		};
+		A060CB23CEED75F2E613C7C6722A55CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HuaTRefresh-HuaTRefresh";
+			target = 8A827603755DC5DB8D8C871A4400A3A6 /* HuaTRefresh-HuaTRefresh */;
+			targetProxy = 1CDABE76FCA5C737A797F3C99B855208 /* PBXContainerItemProxy */;
 		};
 		E2EC8078A0E98550E73F32FEC4123511 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -483,6 +577,22 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49305DBE40086A3DEEBB1B61558F1E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HuaTRefresh";
+				INFOPLIST_FILE = "Target Support Files/HuaTRefresh/ResourceBundle-HuaTRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = HuaTRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -586,9 +696,9 @@
 			};
 			name = Release;
 		};
-		A547769804342CEC7AD56044A8DF669F /* Debug */ = {
+		A3DA06A785DE5D20EB4871A5F9D7CE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B0919BD89DD6A166D8305019DC97CB /* HuaTRefresh.xcconfig */;
+			baseConfigurationReference = 1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,9 +760,25 @@
 			};
 			name = Release;
 		};
-		D98F22F6424F607E346C08AFA3B822FB /* Release */ = {
+		C7EC3F7596BE7BA1B11BABA7B62E49B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B0919BD89DD6A166D8305019DC97CB /* HuaTRefresh.xcconfig */;
+			baseConfigurationReference = 1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HuaTRefresh";
+				INFOPLIST_FILE = "Target Support Files/HuaTRefresh/ResourceBundle-HuaTRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = HuaTRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CB2D5E47D459CC7D8814D11D67C4E095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1255EABF8B9081D8D445831B4DBCDD22 /* HuaTRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -760,11 +886,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A293C3E180C8E061CC31BAA7B6BA7276 /* Build configuration list for PBXNativeTarget "HuaTRefresh" */ = {
+		3A4A5DC3B4B9463C78C35E62F3DBA12A /* Build configuration list for PBXNativeTarget "HuaTRefresh-HuaTRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A547769804342CEC7AD56044A8DF669F /* Debug */,
-				D98F22F6424F607E346C08AFA3B822FB /* Release */,
+				49305DBE40086A3DEEBB1B61558F1E9C /* Debug */,
+				C7EC3F7596BE7BA1B11BABA7B62E49B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -774,6 +900,15 @@
 			buildConfigurations = (
 				61A210E2CBE2347BA1A3D4FE19F3765F /* Debug */,
 				B27C19E6E99457DA8BF45CF2B37DA30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC97E8DB2B36AD8880015F3ADA4463 /* Build configuration list for PBXNativeTarget "HuaTRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DA06A785DE5D20EB4871A5F9D7CE95 /* Debug */,
+				CB2D5E47D459CC7D8814D11D67C4E095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
